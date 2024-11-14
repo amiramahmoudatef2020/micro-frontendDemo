@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmicro_frontend_2=self.webpackChunkmicro_frontend_2||[]).push([[577],{577:(e,t,n)=>{n.r(t),n.d(t,{default:()=>o});var c=n(390),r=n.n(c);const o=()=>r().createElement("div",{className:"text-center text-2xl"},"Welcome to micro-frontend-2!")}}]);
