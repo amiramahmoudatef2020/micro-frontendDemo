@@ -34,18 +34,19 @@ module.exports = {
       remotes: {
         microFrontend1: 'microFrontend1@/dist/microFrontend1RemoteEntry.js',
         microFrontend2: 'microFrontend2@/dist/microFrontend2RemoteEntry.js',
-        microFrontend3: 'microFrontend3@/dist/microFrontend3RemoteEntry.js',
       },
       shared: {
         react: {
           singleton: true,
           requiredVersion: '18.0.0',
           eager: false,
+          shareScope: 'default',
         },
         'react-dom': {
           singleton: true,
           requiredVersion: '18.0.0',
           eager: false,
+          shareScope: 'default',
         },
       },
     }),

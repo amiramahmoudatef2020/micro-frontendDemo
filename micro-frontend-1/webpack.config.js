@@ -31,11 +31,13 @@ module.exports = {
           singleton: true,
           requiredVersion: '18.0.0',
           eager: false,
+          shareScope: 'default',
         },
         'react-dom': {
           singleton: true,
           requiredVersion: '18.0.0',
           eager: false,
+          shareScope: 'default',
         },
       },
     }),
